@@ -1,0 +1,123 @@
+body{
+    width: 100%;
+    text-align: center;
+    font-family: "Lora", serif;
+}
+.left-main{
+    width: 100%;
+    min-width: 300px;
+    height: 50vh; 
+     color: white;
+    background-image: url("bgimg.jpeg");
+    background-image: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.right-main{
+    width: 80%;
+    min-width: 300px;
+    max-width: 400px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+h1{
+   font-size: 2rem;
+   padding:18px;
+   font-weight: 400;
+}
+.main-text{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.second-text{
+    color: rgb(84, 88, 89);
+    max-width: 400px;
+}
+.p-border{
+    width:fit-content;
+    margin: 0 auto;
+
+    margin-top: 0;
+    border-top: 5px solid white;
+}
+form{
+     max-width: 400px;
+}
+input,button{
+    width: 95%;
+    font-family: "Winky Rough", sans-serif;
+    padding: 4px 2px;
+    border-radius: 7px;
+    border-color: none;
+    border-color:1px solid black;
+}
+input{
+
+    margin-bottom: 10px;
+    transition: all 500ms;
+    
+}
+button{
+    background-color:rgb(23, 153, 165);
+     transition: all 500ms;
+      padding: 8px px;
+      border-color: black;
+
+      text-transform: uppercase;
+}
+button:hover{
+    transform: scale(1.1);
+}
+input:focus{
+    transform: scale(1.1);
+}
+.box{
+    border: 1px solid;
+}
+img{
+    margin-top: 12px;
+    width: 30%;
+}
+h2{
+    color: rgb(21, 23, 23);
+    margin-bottom: 0;
+    font-weight: bold;
+}
+h3{
+    color: rgb(99, 102, 103);
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.bottom-text{
+    margin-bottom: 3rem;
+}
+.last-p{
+    color:rgb(77, 80, 81) ;
+    font-size: small;
+}
+@media(min-width:500px){
+    body{
+        display: flex;
+    }
+    .left-main{
+    width: 50%;
+    height:100vh;
+
+    }
+    .right-main{
+        width: 50%;
+        height: 100vh;
+        max-width: 400px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    h1{
+        font-size: 3rem;
+    }
+}
